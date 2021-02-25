@@ -17,6 +17,7 @@ endif
 
 OBJS += messages.o
 OBJS += config.o
+OBJS += pretrezor.o
 OBJS += trezor.o
 OBJS += pinmatrix.o
 OBJS += fsm.o
