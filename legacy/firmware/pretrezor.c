@@ -347,12 +347,12 @@ static void checkPiTrezorButtons(void)
     oledRefresh();
 }
 
-static void drawFace() { 
+static void drawFace(void) { 
   oledDrawBitmap(centerX - 20, centerY - 20, &sleeping_bmp);
   oledDrawString(centerX + 15, centerY - 15, "Z", FONT_STANDARD);
 }
 
-static void animateFace()
+static void animateFace(void)
 {
   if (timeElapsed == 100) {
     oledClear();
